@@ -4,6 +4,7 @@ import cors from 'cors';
 import { clerkMiddleware , requireAuth } from '@clerk/express'
 import aiRouter from './routes/aiRoutes.js ';
 import connectCloudinary from './configs/cloudinary.js';
+import aiRouter from './routes/aiRoutes.js';
 import userRouter from './routes/userRoutes.js';
 
 const app = express()
