@@ -22,7 +22,6 @@ app.use(requireAuth())// To protect your routes, use the requireAuth() middlewar
 app.get('/', (req,res)=>{
     res.send('Server is Live!')
 })
-
 app.use('/api/ai', aiRouter)
 app.use('/api/user', userRouter)
 
